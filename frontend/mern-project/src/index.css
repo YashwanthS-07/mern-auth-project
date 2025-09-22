@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2, #ff0080);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Card */
+.auth-container {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.auth-container h2 {
+  margin-bottom: 1.5rem;
+  color: #222;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Labels */
+.auth-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs */
+.auth-container input {
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 1.2rem;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.auth-container input:focus {
+  border-color: #764ba2;
+}
+
+/* Button with gradient */
+.auth-container button {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #667eea, #764ba2, #ff0080);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-container button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+}
+
+/* Nav Links */
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd166;
+}
